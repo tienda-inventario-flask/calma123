@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeniusKeys - Acceso a Membresía</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 90%;
+            max-width: 700px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #007bff;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        .memberships-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+            margin-top: 40px;
+        }
+        @media (min-width: 600px) {
+            .memberships-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        .membership-plan {
+            background: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .membership-plan:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        .membership-plan h2 {
+            color: #28a745;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+        .membership-plan .price {
+            font-size: 2.8em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 25px;
+        }
+        .membership-plan .price span {
+            font-size: 0.5em;
+            font-weight: normal;
+        }
+        .membership-plan ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+            margin-bottom: 30px;
+            font-size: 1.05em;
+            color: #666;
+        }
+        .membership-plan ul li {
+            margin-bottom: 8px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #007bff;
+            color: #fff;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: background 0.3s ease;
+        }
+        .cta-button:hover {
+            background: #0056b3;
+        }
+        footer {
+            margin-top: 40px;
+            color: #777;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Bienvenido a GeniusKeys!</h1>
+        <p>Tu herramienta esencial para generar tu ruta y cuenta.</p>
+        <p>Adquiere una membresía y desbloquea todo el potencial de GeniusKeys hoy mismo.</p>
+
+        <div class="memberships-grid">
+            <div class="membership-plan">
+                <h2>Membresía Básica</h2>
+                <p class="price">$100<span> USD</span></p>
+                <ul>
+                    <li>✅ Generación ampliada de Tarjetas de Crédito.</li>
+                    <li>✅ Generación ampliada de Rutas y Cuentas.</li>
+                    <li>✅ Copiar resultados al portapapeles.</li>
+                    <li>✅ Exportación a archivo TXT.</li>
+                    <li>💡 Ideal para proyectos personales.</li>
+                </ul>
+                <a href="https://paypal.me/alonzofr?country.x=DO&locale.x=es_XC" class="cta-button">Comprar Ahora - Básica</a>
+            </div>
+
+            <div class="membership-plan">
+                <h2>Membresía Premium</h2>
+                <p class="price">$500<span> USD</span></p>
+                <ul>
+                    <li>🚀 Generación MASIVA de Tarjetas de Crédito.</li>
+                    <li>🚀 Generación MASIVA de Rutas y Cuentas.</li>
+                    <li>🚀 Todas las opciones de personalización.</li>
+                    <li>🚀 Exportación a archivo TXT y CSV.</li>
+                    <li>⭐ Soporte prioritario.</li>
+                    <li>⭐ Acceso a futuras actualizaciones premium.</li>
+                    <li>💡 Ideal para equipos y empresas.</li>
+                </ul>
+                <a href="https://paypal.me/alonzofr?country.x=DO&locale.x=es_XC" class="cta-button">Comprar Ahora - Premium</a>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 GeniusKeys. Todos los derechos reservados.</p>
+            <p>Para soporte, por favor contáctanos en ricardo0922eqf@gmail.com.</p>
+        </footer>
+    </div>
+</body>
+</html>

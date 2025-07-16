@@ -1,0 +1,3 @@
+# GeniusKeys_SalesPage_Web/requirements.txt
+Flask
+gunicorn # Necesario para Render para servir la app en producción
