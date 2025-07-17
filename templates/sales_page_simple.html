@@ -101,6 +101,21 @@
         .cta-button:hover {
             background: #0056b3;
         }
+        .download-button {
+            display: inline-block;
+            background: #28a745; /* Color verde */
+            color: #fff;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-top: 30px; /* Espacio superior */
+            transition: background 0.3s ease;
+        }
+        .download-button:hover {
+            background: #218838; /* Verde más oscuro al pasar el ratón */
+        }
         footer {
             margin-top: 40px;
             color: #777;
@@ -111,9 +126,20 @@
 <body>
     <div class="container">
         <h1>¡Bienvenido a GeniusKeys!</h1>
-        <p>Tu herramienta esencial para generar tu ruta y cuenta.</p>
+        <p>Tu herramienta esencial para generar números de prueba fiables y seguros para desarrollo y QA.</p>
         <p>Adquiere una membresía y desbloquea todo el potencial de GeniusKeys hoy mismo.</p>
 
+        <div style="margin-bottom: 40px; padding: 20px 0; border-bottom: 1px dashed #ddd;">
+            <h2>¿Ya eres miembro o quieres probar?</h2>
+            <p>Descarga la aplicación GeniusKeys para Windows, macOS o Linux y comienza a generar tus números de prueba.</p>
+            <a href="https://www.mediafire.com/file/hafmavpqnugmas8/GeniusKeys.exe/file" class="download-button" download>Descargar GeniusKeys</a>
+            <p style="font-size: 0.9em; color: #777; margin-top: 15px;">
+                (Compatible con Windows 10/11)
+            </p>
+            <p style="font-size: 0.9em; color: #777;">
+                Después de descargar, ejecuta la aplicación, copia tu ID de Hardware y envíalo para activar tu membresía.
+            </p>
+        </div>
         <div class="memberships-grid">
             <div class="membership-plan">
                 <h2>Membresía Básica</h2>
@@ -146,7 +172,7 @@
 
         <footer>
             <p>&copy; 2025 GeniusKeys. Todos los derechos reservados.</p>
-            <p>Para soporte, por favor contáctanos en ricardo0922eqf@gmail.com.</p>
+            <p>Para soporte, por favor contáctanos en zedxx80@gmail.com.</p>
         </footer>
     </div>
 </body>
